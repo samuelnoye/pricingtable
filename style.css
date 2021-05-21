@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css?family=Trirong");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;}
+
+body {
+background: #2c3e50;
+    font-family: "Montserrat", sans-serif;
+  background-color: rgb(17, 194, 179, 2);
+  margin: auto;
+  align-items: center;
+  min-width: 100vh;
+  justify-content: center;
+}
+#maintitle {
+  background: #000a09da;
+  color: #e5f3eff6;
+  padding: 15px 20px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+#title {
+  text-align: center;
+  color: #ebf1f0c4;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-top: 100px;
+}
+figure.image img {
+  width: 100%;
+}
+figure.image {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+figure.image figcaption {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  bottom: 4px;
+  background: rgba(0, 0, 0, 0.6);
+}
+figcaption .caption {
+  position: relative;
+  top: 50%;
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+figcaption h1 {
+  color: rgb(241, 236, 236);
+  font-weight: bold;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+figcaption p {
+  color: rgb(245, 239, 239);
+  font-size: 20px;
+}
+
+.hover-table-layout {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 0 Auto;
+}
+
+.list {
+  position: relative;
+  width: 30%;
+  margin-left: 10px;
+  margin-bottom: 100px;
+  float: left;
+  background: rgba(44, 22, 22, 0.288);
+  border-radius: 10px;
+  z-index: 0;
+  cursor: pointer;
+  transition: transform .2s; 
+}
+.list:hover{
+    transform: scale(1.05);
+}
+.list h2 {
+  background: #151b0888;
+  color: aliceblue;
+  padding: 15px 20px;
+  font-weight: 600;
+  text-align: center;
+}
+.list h4 {
+    background: #151b0888;
+    color: aliceblue;
+    padding: 15px 20px;
+    font-weight: 600;
+    text-align: center;
+    transition: transform .2s; 
+  }
+  .list h4:hover {
+    background: rgba(0, 0, 0, 0.6);
+    color: rgb(238, 235, 229);
+    transform: scale(1.04);
+    border-bottom: 5px solid #000a09da;
+  }
+.list ul {
+  padding: 20px;
+}
+.list ul li {
+  list-style: none;
+  padding: 15px 0;
+  border-bottom: 1px solid #e2e0e7;
+}
+.list ul li:last-child {
+  border-bottom: none;
+   
+}
+
+.list ul li p {
+  text-align: center;
+  color: #f3efefe8;
+  font-size: 16px;
+}
+
+
